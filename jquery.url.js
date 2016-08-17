@@ -16,7 +16,7 @@
 
 			if (typeof object === 'undefined') var object = parameters;
 
-			parameters = $.extend(parameters, object);
+			object = $.extend(parameters, object);
 
 			if (typeof method === 'undefined') var method = "get";
 
